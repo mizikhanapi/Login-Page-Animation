@@ -1,0 +1,90 @@
+	.animate .login_logo {
+    display: block;
+    opacity: 1;
+    animation: fade1 3s ease-out;
+  }
+
+  .animate label[for=username] {
+    display: block;
+    opacity: 1;
+    animation: fade1 4s ease-out;
+  }
+
+  .animate input[name=email] {
+    display: block;
+    opacity: 1;
+    animation: fade1 5s ease-out;
+  }
+
+  .animate label[for=password] {
+    display: block;
+    opacity: 1;
+    animation: fade1 6s ease-out;
+  }
+
+  .animate input[name=password] {
+    display: block;
+    opacity: 1;
+    animation: fade1 7s ease-out;
+  }
+
+  .animate .login_btn_rounded {
+    display: block;
+    opacity: 1;
+    animation: fade1 8s ease-out;
+  }
+
+  .animate .login_problem {
+    display: block;
+    left: 50%;
+    opacity: 1;
+    animation: fade2 9s ease-out;
+  }
+
+  .animate .login_problem>label, .no-animate .login_problem>label {
+    position: relative;
+    left: -50%;
+  }
+
+  .animate .login_colon {
+    right: -40px;
+    animation: colon 1s ease-out;
+  }
+
+  .animate .login_panel {
+    display: block;
+    animation: panel 2s ease-out;
+  }
+
+  @keyframes  fade1 {
+    0% { opacity: 0; visibility: hidden; }
+    41% { opacity: 0; visibility: visible; }
+    50% { opacity: 1; visibility: visible; }
+  }
+
+  @keyframes  fade2 {
+    0% { opacity: 0; visibility: hidden; left: 0px;  }
+    41% { opacity: 0; visibility: visible; left: 0px;  }
+    45% { opacity: 1; visibility: visible; left: 53%; }
+    48% { opacity: 1; visibility: visible; left: 50%; }
+  }
+
+  @keyframes  colon {
+    0% { transform: translate(-50%, -50%); right: 50%;}
+    41% { transform: translate(-50%, -50%) rotate(-180deg); right: 50%;}
+    100% { transform: translate(-50%, -50%) rotate(-180deg);right: -40px;}
+  }
+
+  @keyframes  panel {
+    0% { opacity: 0; visibility: hidden;}
+    48% { opacity: 0; visibility: visible;  }
+    90% { opacity: 1; visibility: visible;}
+  }
+
+  .no-animate .login_colon, .no-animate .login_panel {
+    display: block !important;
+  }
+
+  .no-animate .login_colon {
+    right: -40px;
+  }

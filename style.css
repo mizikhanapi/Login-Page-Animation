@@ -1,0 +1,135 @@
+html, body, .login_container {
+/*	background: #3b5354; 
+	background: -moz-linear-gradient(top, #3b5354 0%, #1a4547 100%); 
+	background: -webkit-linear-gradient(top, #3b5354 0%,#1a4547 100%); 
+	background: linear-gradient(to bottom, #3b5354 0%,#1a4547 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5354', endColorstr='#1a4547',GradientType=0 ); */
+	background: #fbfbfb;
+	background: repeating-linear-gradient( 45deg, #fbfbfb, #fbfbfb 5px, #fff 0px, #fff 10px );
+	color: #010128;
+	font-family: 'proxima nova';
+	height: 100%;
+}
+
+.login_container {
+	display: table;
+}
+
+.login_row {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.login_box {
+	    width: 320px;
+    margin: 0 auto;
+}
+
+.login_panel {
+	margin: 0 auto;
+	position: relative;
+	width: 320px;
+	border-color: #5fc095;
+	box-shadow: 0 2px 12px rgba(0,0,0,.26);
+	display: none;
+}
+
+.login_logo {
+	margin: 50px 0 30px;	
+}
+
+/*.login_logo img {
+	width: 120px;
+	}*/
+
+	.login_img {
+		width: 120px;
+	}
+
+	.login_colon {
+		position: absolute;
+		top: 18%;
+		right: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+	}
+
+	.login_colon img {
+		width: 40px;
+	}
+
+	.login_body {
+		padding: 15px 25px 50px; 
+	}
+
+	.login_msg {
+		text-align: left;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	.login_label {
+		font-family: 'proxima_nova_ltthin';
+	}
+
+	.login_input {
+		background: #fff;
+		border: none;
+		border-bottom: solid 1px #4a4a4a;
+		border-radius: 0px;
+		padding: 6px 0 6px;
+		box-shadow: none;
+		outline: none;
+	}
+
+	.login_input:focus {
+		background: #fff;
+		border: none;
+		border-bottom: solid 2px #5fc095;
+		box-shadow: none;
+		outline: none;
+	}
+
+	.login_alert {
+		color: #F44336;
+		font-size: 12px;
+		text-align: left;
+		margin-top: -10px;
+	}
+
+	.login_btn_rounded {
+		background-color: #5ec095;
+		border-radius: 2em;
+		border: none;
+		margin-top: 30px;
+	}
+
+	.login_btn_rounded:hover, .login_btn_rounded:focus {
+		background-color: #489473;
+		border-radius: 2em;
+		border: none;
+	}
+
+	.login_btn_check {
+		background-color: #00ff99;
+		margin-top: 50px;
+	}
+
+	.login_btn_check:focus, .login_btn_check:hover {
+		background-color: #00c778;
+		margin-top: 50px;
+	}
+
+	.login_problem {
+		margin: 10px 0 -20px;
+		position: absolute;
+		left: 50%;
+		width: 100%;
+	}
+
+	.login_problem a {
+		color: #010128;
+		font-family: 'proxima_nova_ltthin';
+	}
+
+
